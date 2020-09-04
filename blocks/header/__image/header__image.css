@@ -1,0 +1,17 @@
+.header__image {
+  width: 25px;
+  transition: 0.8s;
+}
+
+.mycall-icon {
+  animation: mycall-icon 0.16s infinite alternate linear;
+}
+
+@keyframes mycall-icon {
+  0% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(5deg);
+  }
+}

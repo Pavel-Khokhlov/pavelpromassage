@@ -1,0 +1,7 @@
+.anchor {
+  display: block;
+  position: relative;
+  top: min(-60px, max(-60px - calc((100vw - 320px) / 14.93), -900px));
+  left: 0;
+  visibility: hidden;
+}

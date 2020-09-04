@@ -1,0 +1,15 @@
+.uslugi__card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin-bottom: max(30px, min(calc((100vw - 320px) / 22.4), 50px));
+}
+
+@media only screen and (max-width: 767px) {
+  .uslugi__card {
+    flex-direction: column;
+  }
+  .uslugi__card_reverse {
+    flex-direction: column-reverse;
+  }
+}

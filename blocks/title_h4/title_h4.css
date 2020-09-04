@@ -1,0 +1,6 @@
+.title_h4 {
+  font-size: max(16px, min(calc((100vw - 320px) / 224), 18px));
+  font-weight: 400;
+  text-align: center;
+  margin: 0 auto 20px;
+}

@@ -1,0 +1,12 @@
+.header__icon {
+  display: none;
+  margin: 0;
+  padding: 0;
+  align-items: flex-end;
+}
+
+@media only screen and (max-width: 767px) {
+  .header__icon {
+    display: flex;
+  }
+}

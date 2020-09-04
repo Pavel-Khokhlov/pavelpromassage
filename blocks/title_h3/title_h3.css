@@ -1,0 +1,7 @@
+.title_h3 {
+  font-size: max(20px, min(20px + calc((100vw - 320px) / 56), 28px));
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: max(30px, min(30px + calc((100vw - 320px) / 22.4), 50px));
+  text-align: center;
+}

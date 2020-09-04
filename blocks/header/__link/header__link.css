@@ -1,0 +1,31 @@
+.header__link {
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+  display: block;
+  transition: 0.8s;
+}
+
+.header__link:hover {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.mycall-phone {
+  animation: mycall-phone 1s infinite alternate ease-in-out;
+}
+
+@media only screen and (max-width: 767px) {
+  .header__link {
+    display: none;
+  }
+}
+
+@keyframes mycall-phone {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}

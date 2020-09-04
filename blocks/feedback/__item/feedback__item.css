@@ -1,0 +1,17 @@
+.feedback__item {
+  width: 90%;
+  margin: 0 auto;
+  min-height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .feedback__item {
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 520px;
+  }
+}

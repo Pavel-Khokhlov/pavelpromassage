@@ -1,0 +1,13 @@
+.feedback__text {
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 500px;
+  padding: 0 15px;
+  margin: 0;
+}
+
+@media only screen and (max-width: 767px) {
+  .feedback__text {
+    font-size: 14px;
+  }
+}

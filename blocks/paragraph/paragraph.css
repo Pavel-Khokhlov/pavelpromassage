@@ -1,0 +1,7 @@
+.paragraph {
+  font-size: max(14px, min(calc((100vw - 320px) / 224), 16px));
+  font-weight: normal;
+  padding: 0 16px;
+  margin: 0;
+  margin-bottom: 15px;
+}

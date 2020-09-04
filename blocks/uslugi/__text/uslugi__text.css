@@ -1,0 +1,15 @@
+.uslugi__text {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: justify;
+  align-items: stretch;
+  width: 45%;
+}
+
+@media only screen and (max-width: 767px) {
+  .uslugi__text {
+    width: 100%;
+  }
+}

@@ -1,0 +1,11 @@
+.uslugi__image {
+  width: 45%;
+  object-fit: contain;
+}
+
+@media only screen and (max-width: 767px) {
+  .uslugi__image {
+    width: 95%;
+    margin: 0 auto 3%;
+  }
+}

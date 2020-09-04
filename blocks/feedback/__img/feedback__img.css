@@ -1,0 +1,10 @@
+.feedback__img {
+  width: 250px;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 767px) {
+  .feedback__img {
+    margin-bottom: 20px;
+  }
+}

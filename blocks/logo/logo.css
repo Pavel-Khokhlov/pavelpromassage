@@ -1,0 +1,10 @@
+@import url(__title/logo__title.css);
+@import url(__subtitle/logo__subtitle.css);
+
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

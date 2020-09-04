@@ -1,0 +1,17 @@
+@import url(__nav/header__nav.css);
+@import url(__menu/header__menu.css);
+@import url(__icon/header__icon.css);
+@import url(__link/header__link.css);
+@import url(__phone/header__phone.css);
+@import url(__image/header__image.css);
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  height: max(50px, min(50px + calc((100vw - 320px) / 22.4), 70px));
+  background-color: rgba(255, 255, 255, 0.98);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
