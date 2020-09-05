@@ -1,4 +1,4 @@
-.title_h3 {
+.title {
   font-size: max(20px, min(20px + calc((100vw - 320px) / 56), 28px));
   font-weight: 600;
   margin: 0;
