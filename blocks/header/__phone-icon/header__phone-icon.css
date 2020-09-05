@@ -1,0 +1,22 @@
+.header__phone-icon {
+  width: 25px;
+  height: 25px;
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+  /*border: none;*/
+  box-shadow: none;
+  background-image: url(../../../images/phone.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .header__phone-icon {
+    width: 20px;
+    height: 20px;
+    display: block;
+  }
+}

@@ -1,0 +1,12 @@
+.animation__phone-icon {
+  animation: phone-icon 0.16s infinite alternate linear;
+}
+
+@keyframes phone-icon {
+  0% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(5deg);
+  }
+}

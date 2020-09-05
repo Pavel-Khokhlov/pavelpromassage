@@ -1,3 +1,3 @@
-JQuery(document).ready(function() {
-    $("#lightSlider").lightSlider(); 
-  });
+JQuery(document).ready(function () {
+  $("#lightSlider").lightSlider();
+});

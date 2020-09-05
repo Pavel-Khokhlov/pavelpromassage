@@ -13,7 +13,6 @@
   <title>PavelProMassage</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="lightslider.js"></script>
-  <script src="script.js"></script>
   <script type="text/javascript">
     $(document).ready(function () {
       $("#lightSlider").lightSlider({
@@ -34,19 +33,18 @@
   <a class="anchor" id="top"></a><!-- ЯКОРЬ -->
   <header class="header">
     <div class="header__nav">
-      <nav class="header__menu">
-        <a class="header__icon" href="#popup"><img src="images/menu1.png" alt="иконка меню" class="header__image" /></a>
-        <a class="header__link" href="#popup">Меню</a>
-      </nav>
-      <nav class="header__phone">
-        <a class="header__icon" href="tel:+79852515089"><img src="images/phone.png" alt="иконка телефон"
-            class="header__image mycall-icon" /></a>
-        <a class="header__link mycall-phone" href="tel:+79852515089">+7 (985) 251-50-89</a>
-      </nav>
-    </div>
-    <div class="logo">
-      <h1 class="logo__title">Павел&nbsp;Хохлов</h1>
-      <h2 class="logo__subtitle">Профессиональный&nbsp;массажист</h2>
+      <div class="header__menu">
+        <button type="button" class="header__menu-icon" aria-label="Кнопка меню"></button>
+        <button type="button" class="header__menu-btn">Меню</button>
+      </div>
+      <div class="logo">
+        <h1 class="logo__title">Павел&nbsp;Хохлов</h1>
+        <h2 class="logo__subtitle">Профессиональный&nbsp;массажист</h2>
+      </div>
+      <ul class="header__phone">
+        <li><a class="header__phone-icon animation__phone-icon" href="tel:+79852515089"></a></li>
+        <li><a class="header__phone-link animation__phone-link" href="tel:+79852515089">+7 (985) 251-50-89</a></li>
+      </ul>
     </div>
   </header>
 
