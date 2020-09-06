@@ -1,4 +1,5 @@
 .header__menu {
   display: flex;
   align-items: center;
+  padding-left: max(0px, min(0px + calc((1310px - 100vw) / 2), 15px));
 }

@@ -4,4 +4,5 @@
   list-style: none;
   display: flex;
   justify-content: flex-end;
+  padding-right: max(0px, min(0px + calc((1310px - 100vw) / 2), 15px));
 }

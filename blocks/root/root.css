@@ -12,6 +12,7 @@ a {
   font-style: normal;
   max-width: 1280px;
   margin: 0 auto;
+  position: relative;
 }
 
 /* ================== ANIMATION ==================*/
