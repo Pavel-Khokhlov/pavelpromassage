@@ -14,5 +14,7 @@
 @import url(../blocks/feedback/feedback.css);
 @import url(../blocks/contact/contact.css);
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/popup/popup.css);
+@import url(../blocks/button/button.css);
+@import url(../blocks/popup-sale/popup-sale.css);
+@import url(../blocks/popup-menu/popup-menu.css);
 @import url(../animation/animation.css);

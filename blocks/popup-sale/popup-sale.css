@@ -1,0 +1,15 @@
+@import url(__body/popup-sale__body.css);
+@import url(__close/popup-sale__close.css);
+@import url(__title/popup-sale__title.css);
+@import url(__link/popup-sale__link.css);
+
+.popup-sale {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 101;
+  padding: 0 15px;
+}

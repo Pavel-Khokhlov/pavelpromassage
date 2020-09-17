@@ -34,8 +34,8 @@
   <header class="header">
     <div class="header__nav">
       <div class="header__menu">
-        <button type="button" class="header__menu-icon" aria-label="Кнопка меню"></button>
-        <button type="button" class="header__menu-btn">Меню</button>
+        <button type="button" class="header__menu-icon button" aria-label="Кнопка меню"></button>
+        <button type="button" onclick="document.location='http://mail.ru'" class="header__menu-btn button">Меню</button>
       </div>
       <div class="logo">
         <h1 class="logo__title">Павел&nbsp;Хохлов</h1>
@@ -211,7 +211,7 @@
 
   <!-- POPUP -->
 
-  <div id="popup" class="popup">
+  <section id="popup" class="popup">
     <a href="#header" class="popup__area"></a>
     <!-- закрыть popup по клику в любом месте экрана -->
     <nav class="popup__body">
@@ -222,11 +222,22 @@
         <li><a href="#contacts" class="popup__close">Где работаю</a></li>
       </ul>
     </nav>
-  </div>
+  </section>
+
+  <!-- POPUP-SALE -->
+
+  <section class="popup-sale popup-sale_opened">
+    <div class="popup-sale__body">
+      <button type="button" class="popup-sale__close" aria-label="кнопка закрыть"></button>
+      <h2 class="popup-sale__title">Первый массаж</h2>
+      <a href="https://api.whatsapp.com/send?phone=79852515089&text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%20%D0%9F%D0%B0%D0%B2%D0%B5%D0%BB%2C%20%D1%85%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D0%BF%D0%B5%D1%80%D0%B2%D1%8B%D0%B9%20%D0%BF%D1%80%D0%BE%D0%B1%D0%BD%D1%8B%D0%B9%20%D0%BC%D0%B0%D1%81%D1%81%D0%B0%D0%B6." class="popup-sale__link">Записаться</a>
+    </div>
+  </section>
 
   <!-- ========== SCRIPTS ========== -->
 
   <script src="feedback.js"></script>
+  <script src="popup-sale.js"></script>
 
 </body>
 

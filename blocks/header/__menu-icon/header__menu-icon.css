@@ -1,11 +1,7 @@
 .header__menu-icon {
   width: 25px;
   height: 25px;
-  padding: 0;
-  margin: 0;
   background-color: #fff;
-  border: none;
-  box-shadow: none;
   background-image: url(../../../images/menu1.png);
   background-repeat: no-repeat;
   background-position: center;
