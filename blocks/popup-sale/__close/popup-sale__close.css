@@ -12,10 +12,15 @@
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  opacity: 0.9;
+  opacity: 1;
+  transition: 0.8s;
 }
 
 .popup-sale__close:hover {
   opacity: 0.6;
   cursor: pointer;
+}
+
+.popup-sale__close:focus {
+  outline: none;
 }

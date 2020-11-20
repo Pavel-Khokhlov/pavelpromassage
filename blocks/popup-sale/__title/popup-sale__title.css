@@ -1,5 +1,5 @@
 .popup-sale__title {
-  font-size: max(30px, min(30px + calc((100vw - 320px) / 22.4), 50px));
+  font-size: 50px;
   font-weight: 500;
   line-height: 1;
   color: #fff;
@@ -7,7 +7,13 @@
   text-align: center;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
   margin: 0;
-  position: relative;
+  position: absolute;
   top: 50%;
   transform: translate(0, -50%);
+}
+
+@media only screen and (max-width: 770px) {
+  .popup-sale__title {
+    font-size: 7vw;
+  }
 }

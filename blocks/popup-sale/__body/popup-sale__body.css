@@ -1,11 +1,6 @@
 .popup-sale__body {
-  max-width: 500px;
-  height: max(100px, min(calc((100vw - 30px) * 0.75), 375px));
-  background-image: url(../../../images/coonut1.jpg);
+  width: max-content;
   box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.4);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
   border-radius: 5px;
   position: relative;
   top: 50%;

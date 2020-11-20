@@ -15,6 +15,6 @@
 
 .popup-sale__link:hover {
   box-shadow: none;
-  /*border: 1px solid #fff;*/
-  border: 1px solid rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
 }
