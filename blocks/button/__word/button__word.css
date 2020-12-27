@@ -1,0 +1,13 @@
+.button__word {
+  width: max-content;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  display: block;
+}
+
+@media only screen and (max-width: 767px) {
+  .button__word {
+    display: none;
+  }
+}

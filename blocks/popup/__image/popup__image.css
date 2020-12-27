@@ -1,0 +1,5 @@
+.popup__image {
+  width: min(400px, 75vw);
+  margin: 0;
+  padding: 0;
+}

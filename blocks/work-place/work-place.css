@@ -1,0 +1,8 @@
+@import url(__area/work-place__area.css);
+@import url(__info/work-place__info.css);
+@import url(__map/work-place__map.css);
+
+.work-place {
+  max-width: 90%;
+  margin: 0 auto;
+}

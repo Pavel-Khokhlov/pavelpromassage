@@ -1,6 +1,0 @@
-.logo__subtitle {
-  font-size: max(14px, min(14px + calc((100vw - 320px) / 74.7), 20px));
-  font-weight: normal;
-  line-height: 1.02;
-  margin: 0;
-}

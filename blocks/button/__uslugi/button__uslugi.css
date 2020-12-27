@@ -1,0 +1,22 @@
+.button__uslugi {
+  align-items: center;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  width: 200px;
+  margin: 0 auto;
+  padding: 10px;
+  transition: 0.8s;
+  background-color: white;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+}
+
+.button__uslugi:hover {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+@media only screen and (max-width: 767px) {
+  .button__uslugi {
+    margin-top: 5%;
+  }
+}

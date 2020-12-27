@@ -1,0 +1,10 @@
+.subtitle__footer {
+  font-size: 16px;
+  opacity: 0.3;
+}
+
+@media only screen and (max-width: 430px) {
+  .subtitle__footer {
+    font-size: 12px;
+  }
+}

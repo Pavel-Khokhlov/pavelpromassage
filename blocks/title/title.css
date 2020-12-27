@@ -1,7 +1,9 @@
+@import url(__logo/title__logo.css);
+@import url(__footer/title__footer.css);
+
 .title {
-  font-size: max(20px, min(20px + calc((100vw - 320px) / 56), 28px));
-  font-weight: 600;
+  font-weight: 700;
+  line-height: 1.02;
   margin: 0;
-  margin-bottom: max(30px, min(30px + calc((100vw - 320px) / 22.4), 50px));
   text-align: center;
 }

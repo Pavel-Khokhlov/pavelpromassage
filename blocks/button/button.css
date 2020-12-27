@@ -1,9 +1,31 @@
+@import url(__icon/button__icon.css);
+@import url(__word/button__word.css);
+@import url(__uslugi/button__uslugi.css);
+@import url(__icon/_menu/button__icon_menu.css);
+@import url(__icon/_phone/button__icon_phone.css);
+@import url(__icon/_close/button__icon_close.css);
+
+
 .button {
-  box-shadow: none;
-  border: none;
-  padding: 0;
+  /* сброс стилей */
   margin: 0;
-  outline: none;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  /* настройки кнопок */
+  opacity: 1;
+  transition: 0.8s;
 }
 
+.button:hover {
+  opacity: 0.6;
+}
 
+.button:active {
+  outline-style: none;
+}
+
+.button:focus {
+  outline-style: none;
+}

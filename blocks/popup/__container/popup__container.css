@@ -1,0 +1,10 @@
+.popup__container {
+  width: max-content;
+  height: calc((min(400px, 75vw)) * 1.41);
+  position: relative;
+  margin: 0;
+  padding: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

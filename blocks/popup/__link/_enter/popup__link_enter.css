@@ -1,0 +1,16 @@
+.popup__link_enter {
+  color: #fff;
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+.popup__link_enter:hover {
+  box-shadow: none;
+  transition: 0.8s;
+}

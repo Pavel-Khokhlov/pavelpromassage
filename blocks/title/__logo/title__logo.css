@@ -1,0 +1,9 @@
+.title__logo {
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 430px) {
+  .title__logo {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,10 @@
+.title__footer {
+  font-size: 24px;
+  opacity: 0.3;
+}
+
+@media only screen and (max-width: 430px) {
+  .title__footer {
+    font-size: 18px;
+  }
+}

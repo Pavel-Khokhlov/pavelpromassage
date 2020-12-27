@@ -12,9 +12,24 @@
 @import url(../blocks/about/about.css);
 @import url(../blocks/uslugi/uslugi.css);
 @import url(../blocks/feedback/feedback.css);
-@import url(../blocks/contact/contact.css);
+@import url(../blocks/work-place/work-place.css);
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/line/line.css);
 @import url(../blocks/button/button.css);
-@import url(../blocks/popup-sale/popup-sale.css);
-@import url(../blocks/popup-menu/popup-menu.css);
+@import url(../blocks/popup/popup.css);
+
+/* MODIFICATOR */
+@import url(../blocks/button/_sale/button_sale.css);
+@import url(../blocks/title/_popup/title_popup.css);
+@import url(../blocks/title/_sale/title_sale.css);
+@import url(../blocks/paragraph/_work-place/paragraph_work-place.css);
+@import url(../blocks/paragraph/_footer/paragraph_footer.css);
+@import url(../blocks/popup/__container/_menu/popup__container_menu.css);
+@import url(../blocks/popup/__link/_menu/popup__link_menu.css);
+@import url(../blocks/popup/__link/_enter/popup__link_enter.css);
+@import url(../blocks/popup/__link/_sale/popup__link_sale.css);
+
+@import url(../blocks/popup/_opened/popup_opened.css);
+
+/* AMIMATION */
 @import url(../animation/animation.css);

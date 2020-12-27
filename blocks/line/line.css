@@ -1,0 +1,7 @@
+.line {
+  display: block;
+  width: min(1000px, 80vw);
+  height: 1px;
+  margin: 15px auto;
+  background-color: rgba(0, 0, 0, 0.6);
+}
