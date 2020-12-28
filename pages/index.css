@@ -20,8 +20,6 @@
 
 /* MODIFICATOR */
 @import url(../blocks/title/_popup/title_popup.css);
-@import url(../blocks/paragraph/_work-place/paragraph_work-place.css);
-@import url(../blocks/paragraph/_footer/paragraph_footer.css);
 @import url(../blocks/popup/__container/_menu/popup__container_menu.css);
 @import url(../blocks/popup/__link/_menu/popup__link_menu.css);
 @import url(../blocks/popup/__link/_enter/popup__link_enter.css);

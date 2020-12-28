@@ -1,7 +1,8 @@
+@import url(__main/paragraph__main.css);
+@import url(__footer/paragraph__footer.css);
+
 .paragraph {
-  font-size: max(14px, min(calc((100vw - 320px) / 224), 16px));
   font-weight: normal;
   padding: 0 15px;
   margin: 0;
-  margin-bottom: 15px;
 }
