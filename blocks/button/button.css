@@ -3,8 +3,9 @@
 @import url(__uslugi/button__uslugi.css);
 @import url(__icon/_menu/button__icon_menu.css);
 @import url(__icon/_phone/button__icon_phone.css);
-@import url(__icon/_close/button__icon_close.css);
-
+@import url(__close/button__close.css);
+@import url(__close/_menu/button__close_menu.css);
+@import url(__close/_sale/button__close_sale.css);
 
 .button {
   /* сброс стилей */

@@ -1,9 +1,7 @@
 @import url(__logo/subtitle__logo.css);
+@import url(__main/subtitle__main.css);
 @import url(__footer/subtitle__footer.css);
 
 .subtitle {
   font-weight: normal;
-  line-height: 1.02;
-
-  margin: 0;
 }

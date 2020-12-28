@@ -1,11 +1,5 @@
 .footer__icon {
   width: 20px;
-  opacity: 0.5;
-  transition: 0.8s;
-}
-
-.footer__icon:hover {
-  opacity: 1;
 }
 
 @media only screen and (max-width: 430px) {
