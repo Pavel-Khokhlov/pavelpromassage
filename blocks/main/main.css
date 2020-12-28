@@ -1,7 +1,6 @@
 .main {
   width: 100%;
   margin: 70px auto 0;
-  border: 1px solid red;
 }
 
 @media only screen and (max-width: 767px) {
