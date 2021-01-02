@@ -1,4 +1,4 @@
-const btnMenu = document.querySelector(".button-menu");
+const btnMenu = document.querySelectorAll(".button-menu");
 const popupMenu = document.querySelector(".popup-menu");
 const btnClosePopup = document.querySelectorAll(".popup-close");
 
@@ -10,7 +10,9 @@ const handleCloseClick = (e) => {
   e.target.closest(".popup").classList.remove("popup_opened");
 };
 
-btnMenu.addEventListener("click", handleMenuClick);
+btnMenu.forEach((btn) => {
+  btn.addEventListener("click", handleMenuClick);
+});
 
 btnClosePopup.forEach((btn) => {
   btn.addEventListener("click", (e) => {

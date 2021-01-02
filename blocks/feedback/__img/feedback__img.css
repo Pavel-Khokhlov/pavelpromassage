@@ -1,10 +1,5 @@
 .feedback__img {
-  width: 250px;
+  width: min(250px, 50vw);
   border-radius: 50%;
-}
-
-@media only screen and (max-width: 767px) {
-  .feedback__img {
-    margin-bottom: 20px;
-  }
+  margin-bottom: 20px;
 }
