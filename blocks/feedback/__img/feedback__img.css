@@ -1,5 +1,5 @@
 .feedback__img {
-  width: min(250px, 50vw);
+  width: min(250px, 40vw);
   border-radius: 50%;
   margin-bottom: 20px;
 }
