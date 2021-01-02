@@ -3,7 +3,7 @@
   margin: 0 auto;
   background-color: white;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
-  padding: 20px 30px;
+  padding: 16px 20px;
   border-radius: 15px;
   text-align: center;
   z-index: 2;
@@ -12,7 +12,7 @@
 @media only screen and (max-width: 430px) {
   .work-place__info {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
-    padding: 10px 15px;
+    padding: 8px 10px;
     border-radius: 10px;
   }
 }

@@ -1,4 +1,5 @@
 .subtitle__logo {
   font-size: max(14px, min(14px + calc((100vw - 320px) / 74.7), 20px));
   margin: 0;
+  text-align: center;
 }

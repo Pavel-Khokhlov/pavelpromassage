@@ -1,7 +1,6 @@
 @import url(__card/uslugi__card.css);
 @import url(__image/uslugi__image.css);
 @import url(__text/uslugi__text.css);
-@import url(__link/uslugi__link.css);
 
 .uslugi {
   max-width: 1200px;

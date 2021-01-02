@@ -4,5 +4,5 @@
 @import url(__logo/about__logo.css);
 
 .about {
-  margin-bottom: max(30px, min(calc((100vw - 320px) / 22.4), 50px));;
+  margin: 0 0 min(30px, 8vw);
 }

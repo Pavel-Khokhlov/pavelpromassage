@@ -1,5 +1,5 @@
 .title__main {
-  font-size: 25px;
+  font-size: min(25px, 5vw);
   margin: 0 0 min(30px, 8vw);
   padding: 0 20px;
 }

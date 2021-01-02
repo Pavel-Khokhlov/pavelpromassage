@@ -1,5 +1,5 @@
 .subtitle__main {
-  font-size: 18px;
+  font-size: min(18px, 4.4vw);
   margin: 0 0 min(20px, 5vw);
   padding: 0 15px;
 }
