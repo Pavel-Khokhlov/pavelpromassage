@@ -12,6 +12,6 @@
   .feedback__item {
     flex-direction: column;
     justify-content: flex-start;
-    min-height: 520px;
+    min-height: 600px;
   }
 }
